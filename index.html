@@ -8,28 +8,29 @@
 <meta property="og:site_name" content="Phan Nguyen Film">
 <meta property="og:title" content="Phan Nguyen Portfolio">
 <meta property="og:description" content="PNF's Feature Work">
-<meta property="og:image" content="/img/og.jpg">
+<meta property="og:image" content="https://phan-nguyen-film.vercel.app/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Portrait of film director Phan Nguyen">
+<meta property="og:url" content="https://phan-nguyen-film.vercel.app/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Phan Nguyen Portfolio">
 <meta name="twitter:description" content="PNF's Feature Work">
-<meta name="twitter:image" content="/img/og.jpg">
+<meta name="twitter:image" content="https://phan-nguyen-film.vercel.app/og.jpg">
 <meta name="theme-color" content="#CE212A">
-<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/img/favicon-32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 <title>Phan Nguyen Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
 <style>
-@font-face{font-family:"Jean-Luc";font-weight:600 900;font-display:swap;src:url(/fonts/JeanLuc-Bold.otf) format("opentype")}
-@font-face{font-family:"Jean-Luc";font-weight:100 400;font-display:swap;src:url(/fonts/JeanLuc-Thin.otf) format("opentype")}
+@font-face{font-family:"Jean-Luc";font-weight:600 900;font-display:swap;src:url(/JeanLuc-Bold.otf) format("opentype")}
+@font-face{font-family:"Jean-Luc";font-weight:100 400;font-display:swap;src:url(/JeanLuc-Thin.otf) format("opentype")}
 /* The Jean-Luc typeface was designed and made by Atelier Carvalho Bernau on the occasion of the 80th birthday of Jean-Luc Godard. It is available free of charge from http://www.carvalho-bernau.com/jlg
    Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau */
-@font-face{font-family:"JB Mono";font-weight:400;font-display:swap;src:url(/fonts/JetBrainsMono-Regular.woff2) format("woff2")}
+@font-face{font-family:"JB Mono";font-weight:400;font-display:swap;src:url(/JetBrainsMono-Regular.woff2) format("woff2")}
 
 /* Layout: a black stage; red is the tally light and the brand card; every clip sits in its own frame. */
 :root{
@@ -1033,7 +1034,7 @@ body[data-v="home"] .tally i{background:var(--ink);box-shadow:none}
 <main id="v-about" data-view="about" class="about" hidden>
   <div class="wrap">
     <div class="portrait">
-      <img src="/img/phan.jpg" alt="Phan Nguyen leaning against a white wall, holding a small camera" width="880" height="1100">
+      <img src="/phan.jpg" alt="Phan Nguyen leaning against a white wall, holding a small camera" width="880" height="1100">
       <div class="stk" aria-hidden="true" data-sticker="DIRECTOR"></div>
     </div>
     <div>
@@ -1143,7 +1144,7 @@ body[data-v="home"] .tally i{background:var(--ink);box-shadow:none}
 
 <div class="ov" id="ov" hidden></div>
 
-<script src="/js/config.js"></script>
+<script src="/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
 <script>
 const LOGO = {"outer": "M1002.16 0.00488281C1034.73 0.420273 1061 27.1219 1061 60V321.907H1061.1V618.776C1061.1 651.699 1034.41 678.39 1001.49 678.39H728.715C712.905 678.39 697.742 684.67 686.562 695.85L630.872 751.54C619.693 762.719 604.53 769 588.72 769H535.915C522.952 769 512.405 758.655 512.078 745.771L512.062 744.54C511.736 731.655 501.189 721.311 488.226 721.311H453.9C438.473 721.311 423.677 727.439 412.768 738.348L399.575 751.54C388.396 762.719 373.233 769 357.423 769H59.6123C26.6893 769 3.90421e-05 742.311 0 709.388V60C8.34196e-07 26.863 26.6867 0.000161888 59.6064 0H1001.39L1002.16 0.00488281Z", "window": "M59.6064 45C51.818 45.0002 45 51.4364 45 60V321.907H1016V60C1016 51.4363 1009.18 45.0001 1001.39 45H59.6064Z", "small": "M98.3496 504H107.764V493.695H131.469V487.059H107.764V480.295H133.25V473.638H98.3496V504ZM136.709 504H146.123V473.638H136.709V504ZM151.546 504H186.551V496.918H160.96V473.638H151.546V504ZM189.863 504H198.789V483.751L216.196 504H221.519L238.968 483.709V504H247.937V473.638H238.607L219.25 495.413L200.019 473.638H189.863V504ZM171.265 431.107C163.208 431.107 156.777 432.585 151.971 435.539C147.165 438.479 144.762 442.232 144.762 446.798C144.762 451.378 147.165 455.144 151.971 458.099C156.777 461.053 163.102 462.53 170.946 462.53C178.127 462.53 184.085 461.166 188.82 458.438C193.57 455.695 196.107 451.886 196.433 447.01L196.496 444.678H169.463V449.639H188.163C186.99 451.929 184.912 453.632 181.93 454.749C178.947 455.866 175.413 456.424 171.328 456.424C166.282 456.438 162.155 455.554 158.946 453.773C155.752 451.978 154.154 449.66 154.154 446.819C154.154 443.95 155.758 441.624 158.967 439.843C162.175 438.062 166.353 437.172 171.498 437.172C173.703 437.172 175.697 437.292 177.478 437.532C179.258 437.758 180.933 438.098 182.502 438.55C184.071 438.988 185.556 439.54 186.955 440.204C188.342 440.848 189.042 441.173 189.054 441.179L192.34 436.09C192.319 436.079 191.633 435.726 190.283 435.03C188.912 434.309 187.223 433.645 185.216 433.037C183.223 432.429 181.067 431.955 178.749 431.616C176.445 431.277 173.95 431.107 171.265 431.107ZM199.152 447.307C199.152 452.551 200.897 456.403 204.389 458.862C207.88 461.308 213.273 462.53 220.566 462.53C227.818 462.53 233.218 461.287 236.766 458.799C240.328 456.311 242.101 452.48 242.087 447.307V431.638H232.822V446.606C232.822 449.886 231.762 452.226 229.642 453.625C227.536 455.01 224.504 455.703 220.546 455.703C216.376 455.703 213.337 455.017 211.429 453.646C209.52 452.275 208.565 449.914 208.565 446.564V431.638H199.152V447.307ZM98.3496 462H107.318V441.688L132.444 462H141.158V431.638H132.189V451.568L107.658 431.638H98.3496V462ZM265.254 453.033V462H274.689V453.091L296.083 431.638H284.994L270.725 445.992L270.173 446.479L269.601 445.992L255.161 431.638H243.818L265.254 453.033ZM298.662 462H337.718V456.275H308.076V449.321H335.279V444.021H308.076V437.362H337.272V431.638H298.662V462ZM341.493 462H350.462V441.688L375.588 462H384.302V431.638H375.333V451.568L350.802 431.638H341.493V462ZM98.3496 389.638V420H107.934V412.601H120.74C127.624 412.601 132.522 411.561 135.434 409.483C138.345 407.406 139.802 404.578 139.802 401.002C139.802 397.44 138.324 394.656 135.37 392.648C132.416 390.641 127.567 389.638 120.825 389.638H98.3496ZM143.335 420H152.748V407.999H178.276V420H187.69V389.638H178.276V400.918H152.748V389.638H143.335V420ZM190.324 420H200.734L205.265 413.894H229.763L234.299 420H244.984L222.086 389.638H213.223L190.324 420ZM247.632 420H256.601V399.688L281.726 420H290.44V389.638H281.472V409.568L256.939 389.638H247.632V420ZM218.375 398.564L225.856 408.636H209.165L216.637 398.564L217.506 397.334H217.527L218.375 398.564ZM119.234 396.253C123.305 396.253 126.203 396.656 127.928 397.462C129.652 398.268 130.515 399.511 130.515 401.193C130.515 402.819 129.772 404.112 128.288 405.073C126.804 406.034 123.963 406.515 119.765 406.515H107.934V396.253H119.234Z"};
